@@ -1,4 +1,3 @@
-var array1 = [1, 2, 3];
-var array2 = [4, 5, 6];
-var arrayCombinado = [...array1, ...array2];
-console.log(arrayCombinado);
+var arrayConDuplicados = [1, 2, 3, 1, 2, 4];
+var arraySinDuplicados = [...new Set(arrayConDuplicados)];
+console.log(arraySinDuplicados);
