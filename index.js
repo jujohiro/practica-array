@@ -1,2 +1,3 @@
-var arrayRepetido = new Array(4).fill("Hola");
-console.log(arrayRepetido);
+var cadena = "Hola, mundo, cómo, estás";
+var arrayDesdeCadena = cadena.split(", ");
+console.log(arrayDesdeCadena);
