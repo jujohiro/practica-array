@@ -1,3 +1,3 @@
-var array = ["Hola", "mundo", "cómo", "estás"];
-var string = array.join(" ");
-console.log(string);
+var array = [1, 2, 3, 4, 5];
+var subseccion = array.slice(-3);
+console.log(subseccion);
