@@ -1,3 +1,10 @@
-var arrayConDuplicados = [1, 2, 3, 1, 2, 4];
-var arraySinDuplicados = [...new Set(arrayConDuplicados)];
-console.log(arraySinDuplicados);
+function generarValoresDinamicamente(cantidad) {
+    var array = [];
+    for (var i = 0; i < cantidad; i++) {
+      array.push(Math.random());
+    }
+    return array;
+  }
+  
+  var arrayDinamico = generarValoresDinamicamente(4);
+  console.log(arrayDinamico);
