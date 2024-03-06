@@ -1,4 +1,3 @@
-var array = [1, 2, 3, 4, 5];
-var sinModificacion = array.slice(0, 3);
-console.log(sinModificacion); // Output: [1, 2, 3]
-console.log(array);
+var array = [3, 4, 5];
+array.unshift(...[1, 2]);
+console.log(array); 
