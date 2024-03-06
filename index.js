@@ -1,3 +1,2 @@
-var difTiposDatos = [1, "dos", "true", "null"];
-
-var miOtroArray = new Array("uno", "dos", "tres");
+var secuenciaNumerica = Array.from({ length: 5 }, (_, index) => index + 1);
+console.log(secuenciaNumerica);
